@@ -25,6 +25,8 @@ body{
     /* padding-bottom: 0; */
     height: fit-content;
     margin-bottom: 40px;
+    padding-top: 40px;
+
 
 }
 
@@ -32,6 +34,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+
 
 
 }
@@ -50,10 +53,10 @@ body{
 }
 .btn-2{
     background-color: #005AE2;
-    width: 142px;
+    width: 140px;
     height: 44px;
     border-radius: 100px;
-    padding: 12px 24px;
+    padding: 12px ;
     color: white;
 
 }
@@ -62,7 +65,8 @@ body{
     font-family: "Gilroy-Medium";
     font-size: 18px;
     line-height: 20px;
-    padding: 0  30px;
+    padding: 0  15px;
+    padding-top: 15px;
 
 }
 .txt-optimize{
@@ -128,6 +132,61 @@ body{
     padding-bottom: 24px;
     height: 49px;;
 }
+.obj-img-32{
+    display: none;
+}
+/*Responsiveness For */
+@media screen  and (max-width: 768px){
+    .section-1{
+        display: inline-block;
+        width: 768px;
+        flex-flow:row;
+        gap: 50px;
+    }
+    .header-item-2{
+        display: none;
+    }
+    .header-items{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0;
+    }
+    .header-item-3 {
+        margin-right: 20px;
+    }
+    .txt-optimize{
+        width: 768px;
+    }
+    .link-container
+    {
+        margin-left: 20px;
+        width: 740px;
+    }
+    .obj-img{
+        margin-left: 20px;
+    }
+    .obj-img-2{
+        max-width:  768px;
+    }
+    .obj-img-3{
+        /* max-width: 75% */
+        display: none;
+        width: 500px;
+        
+    }
+    .obj-img-32{
+        display: inline-block;
+        width: 500px;
+        position: absolute;
+        z-index: 99;
+        margin: 0;
+        margin-top: -45px;
+        margin-left: 120px;
+    }
+
+    
+}
+
 /* Section Two*/
 .section-two{
     height: 982px;
