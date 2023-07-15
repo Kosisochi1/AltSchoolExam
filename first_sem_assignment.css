@@ -94,8 +94,8 @@ body{
 .link-container{
     width: 768px;
     height: 224px;
-    margin-left: 389px;
-    margin-right: 238px;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid #005AE2;
     padding: 40px 60px;
     margin-top: 80px;
@@ -116,16 +116,42 @@ body{
     align-items: center;
 }
 .obj-img{
-    margin-left: 389px;
-    margin-top: -268px;
+    margin-left: -65px;
+    margin-top: -200px;
     position: relative;
     z-index: -4;
 }
+.object-2-conrtainer2{
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: -75px;
+}
 .obj-img-2{
     margin-top: 76px;
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+    display: block;
+    margin-bottom: 0;
+
+    
 }
+.obj-img-21{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: -70px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 0;
+    
+}
+
+    
+
 .obj-img-3{
     position: relative;
+
     margin-left: 256px;
     margin-top: -96px;
     padding-top: 20px;
@@ -135,8 +161,11 @@ body{
 .obj-img-32{
     display: none;
 }
+.object-2-conrtainer{
+    display: none;
+}
 /*Responsiveness For */
-@media screen  and (max-width: 768px){
+@media only screen  and (max-width: 899px){
     .section-1{
         display: inline-block;
         width: 768px;
@@ -162,9 +191,7 @@ body{
         margin-left: 20px;
         width: 740px;
     }
-    .obj-img{
-        margin-left: 20px;
-    }
+    
     .obj-img-2{
         max-width:  768px;
     }
@@ -174,18 +201,38 @@ body{
         width: 500px;
         
     }
-    .obj-img-32{
-        display: inline-block;
-        width: 500px;
-        position: absolute;
-        z-index: 99;
-        margin: 0;
-        margin-top: -45px;
-        margin-left: 120px;
+    .object-2-conrtainer{
+        display: block;
+        width: 100%;
+        padding-bottom: 0;
+        margin-bottom: -95px;
+
+    }
+    .object-2-conrtainer2{
+        display: none;
+        width: 100%;
+        padding-bottom: 0;
+        margin-bottom: -95px;
+    }
+    .obj-img-21{
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        top: -50px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 0;
+        
     }
 
     
 }
+/* @media only screen and (min-width: 1024px){
+    .obj-img-21{
+        max-width: 700px
+    }
+    
+} */
 
 /* Section Two*/
 .section-two{
